@@ -21,10 +21,14 @@
                 <version>2.5.1</version>
                 <executions>
                     <execution>
-                        <phase>post-integration-test</phase>
+                        <id>instrument-code</id>
+                        <phase>process-classes</phase>
                         <goals>
-                            <goal>cobertura</goal>
+                          <goal>instrument</goal>
                         </goals>
+                        <configuration>
+                          <attach>true</attach>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
