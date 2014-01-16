@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.mardiel</groupId>
+        <artifactId>multi-module-example</artifactId>
+        <version>1.0</version>
+    </parent>
+    <groupId>com.mardiel</groupId>
+    <artifactId>calculator-test</artifactId>
+    <version>1.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>com.mardiel</groupId>
+            <artifactId>calculator</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+</project>
