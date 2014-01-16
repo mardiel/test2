@@ -13,7 +13,7 @@
         <property name="src.dir" value="src/main/java/"/>
         <cobertura-report datafile="sum.ser"
                           format="xml"
-                          destdir="./target/site/cobertura/coverage.xml">
+                          destdir="./test/target/site/cobertura/coverage.xml">
             <!-- Add all modules that should be included below -->
             <!-- fileset dir="./MODULE_NAME_TO_REPLACE/${src.dir}"/ -->
             <fileset dir="./product/${src.dir}"/>
