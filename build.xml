@@ -42,7 +42,7 @@
     <property name="cobertura.dir" value="${COBERTURA_HOME}"/>
     <path id="cobertura.classpath">
         <fileset dir="${cobertura.dir}">
-            <include name="cobertura.jar"/>
+            <include name="cobertura-2.0.3.jar"/>
             <include name="lib/**/*.jar"/>
         </fileset>
     </path>
